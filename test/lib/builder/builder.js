@@ -9,6 +9,7 @@ const builder = ui5Builder.builder;
 const applicationAPath = path.join(__dirname, "..", "..", "fixtures", "application.a");
 const applicationGPath = path.join(__dirname, "..", "..", "fixtures", "application.g");
 const applicationHPath = path.join(__dirname, "..", "..", "fixtures", "application.h");
+const libraryCore = path.join(__dirname, "..", "..", "fixtures", "core-evo");
 const libraryDPath = path.join(__dirname, "..", "..", "fixtures", "library.d");
 const libraryHPath = path.join(__dirname, "..", "..", "fixtures", "library.h");
 const libraryEPath = path.join(__dirname, "..", "..", "fixtures", "library.e");
@@ -351,7 +352,31 @@ const applicationGTree = {
 		"name": "application.g",
 		"namespace": "application/g"
 	},
-	"dependencies": [],
+	"dependencies": [
+		{
+			"id": "core-evo",
+			"version": "1.0.0",
+			"path": libraryCore,
+			"dependencies": [],
+			"_level": 1,
+			"specVersion": "0.1",
+			"type": "library",
+			"metadata": {
+				"name": "core-evo",
+				"copyright": "Some fancy copyright"
+			},
+			"resources": {
+				"configuration": {
+					"paths": {
+						"src": "main/src"
+					}
+				},
+				"pathMappings": {
+					"/resources/": "main/src"
+				}
+			}
+		}
+	],
 	"resources": {
 		"configuration": {
 			"paths": {
@@ -384,7 +409,31 @@ const applicationGTreeComponentPreloadPaths = {
 		"name": "application.g",
 		"namespace": "application/g"
 	},
-	"dependencies": [],
+	"dependencies": [
+		{
+			"id": "core-evo",
+			"version": "1.0.0",
+			"path": libraryCore,
+			"dependencies": [],
+			"_level": 1,
+			"specVersion": "0.1",
+			"type": "library",
+			"metadata": {
+				"name": "core-evo",
+				"copyright": "Some fancy copyright"
+			},
+			"resources": {
+				"configuration": {
+					"paths": {
+						"src": "main/src"
+					}
+				},
+				"pathMappings": {
+					"/resources/": "main/src"
+				}
+			}
+		}
+	],
 	"resources": {
 		"configuration": {
 			"paths": {
@@ -415,7 +464,31 @@ const applicationHTree = {
 		"name": "application.h",
 		"namespace": "application/h"
 	},
-	"dependencies": [],
+	"dependencies": [
+		{
+			"id": "core-evo",
+			"version": "1.0.0",
+			"path": libraryCore,
+			"dependencies": [],
+			"_level": 1,
+			"specVersion": "0.1",
+			"type": "library",
+			"metadata": {
+				"name": "core-evo",
+				"copyright": "Some fancy copyright"
+			},
+			"resources": {
+				"configuration": {
+					"paths": {
+						"src": "main/src"
+					}
+				},
+				"pathMappings": {
+					"/resources/": "main/src"
+				}
+			}
+		}
+	],
 	"resources": {
 		"configuration": {
 			"paths": {
@@ -494,7 +567,31 @@ const libraryHTree = {
 	"id": "library.h",
 	"version": "1.0.0",
 	"path": libraryHPath,
-	"dependencies": [],
+	"dependencies": [
+		{
+			"id": "core-evo",
+			"version": "1.0.0",
+			"path": libraryCore,
+			"dependencies": [],
+			"_level": 1,
+			"specVersion": "0.1",
+			"type": "library",
+			"metadata": {
+				"name": "core-evo",
+				"copyright": "Some fancy copyright"
+			},
+			"resources": {
+				"configuration": {
+					"paths": {
+						"src": "main/src"
+					}
+				},
+				"pathMappings": {
+					"/resources/": "main/src"
+				}
+			}
+		}
+	],
 	"_level": 0,
 	"specVersion": "0.1",
 	"type": "library",
