@@ -2,7 +2,22 @@
 All notable changes to this project will be documented in this file.  
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-A list of unreleased changes can be found [here](https://github.com/SAP/ui5-builder/compare/v0.0.1...HEAD).
+A list of unreleased changes can be found [here](https://github.com/SAP/ui5-builder/compare/v0.0.2...HEAD).
+
+<a name="v0.0.2"></a>
+## [v0.0.2] - 2018-06-21
+### Bug Fixes
+- **Builders:** Do not bundle debug files [`19800a1`](https://github.com/SAP/ui5-builder/commit/19800a16689210c13495bc1bd0949896500cfc52)
+
+### Internal Changes
+- Add coveralls [`434b675`](https://github.com/SAP/ui5-builder/commit/434b67512444f279288359bf990895b607254075)
+- Add and update badges [`9c33b04`](https://github.com/SAP/ui5-builder/commit/9c33b047d9211e59f23e5fcbc76e66e5fd143150)
+- Have greenkeeper-lockfile amend any greenkeeper commit [`641817b`](https://github.com/SAP/ui5-builder/commit/641817b4e4f618aab6bbe3bde55ae01a942b93f8)
+- Prepare Greenkeeper installation [`fe9cbbf`](https://github.com/SAP/ui5-builder/commit/fe9cbbf0fbe3dd5bd8748adece8137797ae46795)
+- **Greenkeeper:** Add badge [`167cca9`](https://github.com/SAP/ui5-builder/commit/167cca9d038b4403fd282897b353db796fc0f7d9)
+- **Greenkeeper:** Add config file [`891339e`](https://github.com/SAP/ui5-builder/commit/891339e9493e8d0e609483891c476dea9c041d4e)
+- **README:** Pre-Alpha -> Alpha [`33c8190`](https://github.com/SAP/ui5-builder/commit/33c81906358d38b634099acbf8aafa234cc504db)
+
 
 <a name="v0.0.1"></a>
 ## v0.0.1 - 2018-06-06
@@ -26,3 +41,4 @@ A list of unreleased changes can be found [here](https://github.com/SAP/ui5-buil
 - **Travis:** Add node.js 10 to test matrix [`ce91dd1`](https://github.com/SAP/ui5-builder/commit/ce91dd17e4e28932a838ec743a489ff6495d21a9)
 
 
+[v0.0.2]: https://github.com/SAP/ui5-builder/compare/v0.0.1...v0.0.2
